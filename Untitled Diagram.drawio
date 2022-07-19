@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T11:58:53.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.1" etag="FAdqqhNRhKxEazdpasX9" type="github"><diagram id="tqQHStCgdkgHb4JdpzSc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-19T12:49:06.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EsOGMV4xpvOIbMLzCg-f" version="20.1.1" type="github">
+  <diagram id="tqQHStCgdkgHb4JdpzSc" name="Page-1">
+    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="380" width="270" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-5" value="LocaleDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="213.5" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-6" value="Localization&lt;br&gt;Microservice" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="183.5" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tjio9rQtHMge3xWPV5BF-6" target="Tjio9rQtHMge3xWPV5BF-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523.5" y="680" as="sourcePoint" />
+            <mxPoint x="573.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-10" value="Centralized Logging microservice" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="185" y="30" width="123" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-11" value="LogsDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="215" y="130" width="63" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tjio9rQtHMge3xWPV5BF-10" target="Tjio9rQtHMge3xWPV5BF-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="458" y="430" as="sourcePoint" />
+            <mxPoint x="508" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tjio9rQtHMge3xWPV5BF-13" value="Message Queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="280" width="336" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
