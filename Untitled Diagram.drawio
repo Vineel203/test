@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T21:13:55.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qeoyPQSQLCGlEspZ2AC2" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T01:23:06.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="n0WY7f1tOz0DO_tS3E1Q" version="20.2.2" type="github">
   <diagram id="M76jBjar-1vTpmpUjn1L" name="Page-1">
-    <mxGraphModel dx="1234" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1452" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-1" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="543" y="-400" width="253" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-2" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6CfhSoayrOcvP-b4IXLZ-1" vertex="1">
+        <mxCell id="6CfhSoayrOcvP-b4IXLZ-2" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6CfhSoayrOcvP-b4IXLZ-1" vertex="1">
           <mxGeometry x="105" y="200" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-3" value="&lt;b&gt;Locale Microservice&lt;br&gt;&lt;/b&gt;used to fetch localized messages" style="rounded=1;whiteSpace=wrap;html=1;" parent="6CfhSoayrOcvP-b4IXLZ-1" vertex="1">
@@ -20,24 +20,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-21" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="170" width="590" height="470" as="geometry" />
+          <mxGeometry x="99" y="50" width="561" height="600" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-14" value="&lt;b&gt;Locale Microservice&lt;br&gt;&lt;/b&gt;used to fetch localized messages&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="6CfhSoayrOcvP-b4IXLZ-21" vertex="1">
-          <mxGeometry x="400" y="250" width="120" height="120" as="geometry" />
+          <mxGeometry x="400" y="300" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-6" value="&lt;b&gt;Audit Microservice&lt;/b&gt;&lt;br&gt;used to store and fetch audit records" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="6CfhSoayrOcvP-b4IXLZ-21" vertex="1">
-          <mxGeometry x="60" y="250" width="120" height="120" as="geometry" />
+          <mxGeometry x="20" y="300" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-16" value="Requests audit messages to be formatted&lt;br&gt;in specific locale" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="6CfhSoayrOcvP-b4IXLZ-21" source="6CfhSoayrOcvP-b4IXLZ-6" target="6CfhSoayrOcvP-b4IXLZ-14" edge="1">
           <mxGeometry x="0.0833" y="20" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="290" />
+              <mxPoint x="160" y="360" />
+              <mxPoint x="160" y="360" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RCsCqfV9AFY7gwVdjFME-1" value="Log file" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="6CfhSoayrOcvP-b4IXLZ-21">
-          <mxGeometry x="60" y="130" width="80" height="80" as="geometry" />
+        <mxCell id="RCsCqfV9AFY7gwVdjFME-1" value="Log file" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="6CfhSoayrOcvP-b4IXLZ-21" vertex="1">
+          <mxGeometry x="60" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="6CfhSoayrOcvP-b4IXLZ-21" source="6CfhSoayrOcvP-b4IXLZ-6" target="RCsCqfV9AFY7gwVdjFME-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,23 +52,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-13" value="&lt;b&gt;Log Aggregator&lt;br&gt;&lt;/b&gt;used to store and fetch log records&lt;br&gt;of microservices" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="6CfhSoayrOcvP-b4IXLZ-21" vertex="1">
-          <mxGeometry x="200" width="120" height="120" as="geometry" />
+          <mxGeometry x="221" y="10" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="6CfhSoayrOcvP-b4IXLZ-21" source="6CfhSoayrOcvP-b4IXLZ-14" target="6CfhSoayrOcvP-b4IXLZ-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="240" as="sourcePoint" />
-            <mxPoint x="440" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-25" value="logs entry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6CfhSoayrOcvP-b4IXLZ-19" vertex="1" connectable="0">
-          <mxGeometry x="-0.1308" y="1" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RCsCqfV9AFY7gwVdjFME-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6CfhSoayrOcvP-b4IXLZ-21" source="RCsCqfV9AFY7gwVdjFME-1" target="6CfhSoayrOcvP-b4IXLZ-13">
+        <mxCell id="RCsCqfV9AFY7gwVdjFME-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6CfhSoayrOcvP-b4IXLZ-21" source="RCsCqfV9AFY7gwVdjFME-1" target="6CfhSoayrOcvP-b4IXLZ-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="250" as="sourcePoint" />
             <mxPoint x="380" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1d6yiStvHRsZGswFY6J-1" value="Log file" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="6CfhSoayrOcvP-b4IXLZ-21">
+          <mxGeometry x="381" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1d6yiStvHRsZGswFY6J-3" value="logs entry" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6CfhSoayrOcvP-b4IXLZ-21" source="6CfhSoayrOcvP-b4IXLZ-14" target="p1d6yiStvHRsZGswFY6J-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1d6yiStvHRsZGswFY6J-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.442;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6CfhSoayrOcvP-b4IXLZ-21" source="p1d6yiStvHRsZGswFY6J-1" target="6CfhSoayrOcvP-b4IXLZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-23" target="6CfhSoayrOcvP-b4IXLZ-6" edge="1">
@@ -77,10 +82,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-23" value="&lt;b&gt;WebServer&lt;/b&gt;&lt;br&gt;monolith application which Serves API requests" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="690" width="140" height="90" as="geometry" />
+          <mxGeometry x="109" y="700" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-27" value="&lt;b&gt;Commserver&lt;/b&gt;&lt;br&gt;Monolith application with used to manage backups.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="690" width="140" height="80" as="geometry" />
+        <mxCell id="6CfhSoayrOcvP-b4IXLZ-27" value="&lt;b&gt;Commserver&lt;/b&gt;&lt;br&gt;Monolith application which is used to manage backups.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="489" y="700" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-23" target="6CfhSoayrOcvP-b4IXLZ-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -111,58 +116,6 @@
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-37" value="&lt;b&gt;Logging Microservice&lt;/b&gt;&lt;br&gt;used to store and fetch log records&lt;br&gt;of microservices" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="20" y="-540" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-41" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="1333" y="290" width="340" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-42" value="MongoDB/ElasticSearch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6CfhSoayrOcvP-b4IXLZ-41" vertex="1">
-          <mxGeometry x="140" y="200" width="80" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-43" value="&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;Logging Microservice&lt;/b&gt;&lt;br&gt;used to store and fetch log records&lt;br&gt;of microservices" style="rounded=1;whiteSpace=wrap;html=1;" parent="6CfhSoayrOcvP-b4IXLZ-41" vertex="1">
-          <mxGeometry x="110" y="50" width="140" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6CfhSoayrOcvP-b4IXLZ-41" source="6CfhSoayrOcvP-b4IXLZ-43" target="6CfhSoayrOcvP-b4IXLZ-42" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="320" as="sourcePoint" />
-            <mxPoint x="140" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-54" value="Consumes log entry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6CfhSoayrOcvP-b4IXLZ-41" vertex="1">
-          <mxGeometry x="-20" y="85" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-45" target="6CfhSoayrOcvP-b4IXLZ-49" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1103" y="470" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1073" y="501" />
-              <mxPoint x="1073" y="403" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-45" value="&lt;b&gt;Audit Microservice&lt;/b&gt;&lt;br&gt;used to store and fetch audit records" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="923" y="443" width="117" height="117" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-48" target="6CfhSoayrOcvP-b4IXLZ-49" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1073" y="360" />
-              <mxPoint x="1073" y="403" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-52" value="Publish Log entry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6CfhSoayrOcvP-b4IXLZ-50" vertex="1" connectable="0">
-          <mxGeometry x="0.5933" y="2" relative="1" as="geometry">
-            <mxPoint x="-24" y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-48" value="&lt;b&gt;Locale Microservice&lt;br&gt;&lt;/b&gt;used to fetch localized messages" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="920" y="300" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.018;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-49" target="6CfhSoayrOcvP-b4IXLZ-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6CfhSoayrOcvP-b4IXLZ-49" value="ActiveMQ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1193" y="373" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6CfhSoayrOcvP-b4IXLZ-68" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6CfhSoayrOcvP-b4IXLZ-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
